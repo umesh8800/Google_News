@@ -1,0 +1,27 @@
+body{
+  background-color: darkseagreen;
+}
+
+@media only screen and (min-width: 992px) {
+  .card{
+    margin-left: 340px;
+    padding: 50px;
+    box-shadow: 5px 5px 25px 5px rgba(0, 0,0,0.5);
+  }
+}
+
+.card-title{
+  font-weight: bold;
+  
+}
+.author{
+  width: 20px;
+  height: 20px;
+  border-radius: 80%;
+  margin-right: 0px;
+  
+}
+.card-img-top{
+  box-shadow: 5px 5px 25px 5px rgba(0, 0,0,0.5);
+
+}
